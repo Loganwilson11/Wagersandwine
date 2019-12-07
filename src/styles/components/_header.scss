@@ -1,0 +1,19 @@
+.header {
+    background: darken(#1e79ad, 25%);
+    background: darken(#1f7a9e, 25%);
+}
+
+.header__title {
+    color: white;
+    text-decoration: none;
+    h1 {
+        margin: 0;
+    }
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $s-size 0;
+}
